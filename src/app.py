@@ -4,9 +4,7 @@ from dash import dcc
 import dash_bootstrap_components as dbc
 from dash.dependencies import Input, Output
 import altair as alt
-# from IPython.display import IFrame
 import pandas as pd
-
 import vegafusion
 
 
@@ -21,8 +19,6 @@ from second_section_heatmap import plot_heatmap
 from third_section_map import get_third_section_map
 from third_section_map import get_map
 
-# PATH = pathlib.Path(__file__).parent
-# DATA_PATH = PATH.joinpath("data").resolve()
 
 data_url = 'https://github.com/Dhunsheth/dash_python_dashboard/raw/main/data/processed/data.parquet'
 response = requests.get(data_url)
