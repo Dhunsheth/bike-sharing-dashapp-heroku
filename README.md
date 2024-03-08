@@ -1,4 +1,6 @@
-# Chicago Bike Sharing Dash App Deployed via Heroku    
+# Chicago Bike Sharing Dash App Deployed via Heroku   
+
+**App Updated** 
 
 App URL: [Chicago Bike Sharing Dash App](https://bike-sharing-py-dashapp-44627a5faee5.herokuapp.com/)       
 
