@@ -336,9 +336,6 @@ def plot_rider_trend_month(df, func, cat):
     month = filtered_df.groupby(['month']).agg({'count':'sum','ride_duration':'mean'}) 
     filtered_df = filtered_df.reset_index()
 
-    total_rides_month = "{:,}".format(month['count'].max())
-    total_avg_month = round(month['ride_duration'].max(),2)
-
     month_order = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
     month_abbr_to_full = {month: calendar.month_name[i] for i, month in enumerate(calendar.month_abbr) if month}
 
